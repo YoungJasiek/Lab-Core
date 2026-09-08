@@ -7,7 +7,10 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 set(LAB_ENGINE_DIR "$ENV{LAB_ENGINE_DIR}")
 if(NOT LAB_ENGINE_DIR)
-    set(LAB_ENGINE_DIR "C:/Users/jancz/Desktop/Lab")
+    get_filename_component(LAB_ENGINE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../.." ABSOLUTE)
+    if(NOT EXISTS "${LAB_ENGINE_DIR}/include")
+        set(LAB_ENGINE_DIR "C:/Users/jancz/Desktop/Lab")
+    endif()
 endif()
 
 include_directories(
