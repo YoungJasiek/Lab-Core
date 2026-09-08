@@ -1,8 +1,8 @@
-# lab-core (LabCore.dll)
+# Lab Core (LabCore.dll)
 
 [![Engine: Lab](https://img.shields.io/badge/Engine-Lab-blue?style=for-the-badge)](https://github.com/YoungJasiek/Lab)
 [![Online Documentation](https://img.shields.io/badge/Docs-VDC%20Online-green?style=for-the-badge)](https://youngjasiek.github.io/Lab/module-core.html)
-[![Artifact](https://img.shields.io/badge/Output-LabCore.dll-blueviolet?style=for-the-badge)](https://github.com/YoungJasiek/lab-core)
+[![Repository](https://img.shields.io/badge/GitHub-Lab-Core-blueviolet?style=for-the-badge)](https://github.com/YoungJasiek/Lab-Core)
 
 Foundational engine subsystem providing application lifecycle, deterministic 64Hz loop timing, Win32/GLFW input processing, vector math (Vec2, Vec3, Mat4), camera projection, native file dialogs, and font atlas rendering.
 
@@ -45,4 +45,7 @@ cmake --build . --config Release
 Precompiled binaries are output to `build/Release/LabCore.dll`.
 
 ---
-© 2026 YoungJasiek. Licensed under the MIT License.
+
+## 👤 Author & Acknowledgments
+* **Creator & Architect:** [YoungJasiek](https://github.com/YoungJasiek)
+* **Special Thanks:** Sincere gratitude to **Valve Corporation** for their legendary game engines (GoldSrc, Source Engine) which defined the gold standard for tactile mechanics and inspired the architecture of Lab.
